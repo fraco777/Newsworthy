@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Newsworthy report | Backend </title>
+	
+<meta name="author" content="Web development: Francesca Macolino; Content development: Ludovica Bonaldo | Giulia Gobetti | Silvia Guarnieri | Francesca Macolino | Luca Meneguzzo | Martina Mondonico">
+<meta name="description" content="Newsworthy, Backend. An information system that provides only one article for each relevant daily topic combining all reliable online sources. But technologically speaking: how it can really work?">
+
+	
+<link rel="icon" href="./img/favicon.png" type="image/png">
+	
+<link href="./master.css" rel="stylesheet" type="text/css">
+	
+<!--smartphone stuff-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+	
+</head>	
+
+
+<body>
+
+<div id="navbar">
+	<div id="contenitorenavbar">
+		<div id="contenitorelogo" class="noselect"> <a href="./index.html"> 
+		<img class="resize" src="./img/LogoSito.png" alt="logo newsworthy"> </a>
+		</div>
+		
+		<div id="contenitorelink">
+			<ul>
+			<li><a class="hvr-sweep-to-right" href="../newsworthy report/uxui.html"> &nbsp; App &nbsp; </a></li>
+			<li><a class="hvr-sweep-to-right highlight" href="../newsworthy report/backend.html"> &nbsp; Technology &nbsp; </a></li>
+			<li><a class="hvr-sweep-to-right" href="../newsworthy report/iteration activities.html"> &nbsp; Validation &nbsp;</a></li>
+			<li><a class="hvr-sweep-to-right" href="../newsworthy report/team.html"> &nbsp; Team &nbsp; </a></li>
+			</ul>
+		</div>
+	
+	</div>	
+</div>
+	
+
+	
+<div id="header">
+	<div id="contenitoreheader">
+		
+		<div id="contenitoretestiheader">
+			<div id="contenitoretext1">
+				<h1>An information system that provides<strong class="bgorange"> only one article for each relevant daily topic </strong> combining all reliable online sources</h1>
+
+			</div>
+			<div id="contenitoretext2">
+				<h4>
+				But technologically speaking: how it can really work?
+				</h4>
+
+
+			</div>
+		</div>
+		
+			<div class="contenitoreright">
+		<img class="resize" src="./img/worthino.png" alt="Newsworthy Backend">
+		</div>
+	
+	
+	
+	</div>
+	
+	
+</div>
+	
+<div id="contenitoresito">
+	<div class="box">
+		<div class="contenitoreh2">
+		<h2> NLP algorithms </h2>
+		</div>
+		<div class="contenitoreriga">
+			<div class="contenitoreleft">
+			<p>Natural language processing (NLP) is a family of algorithm capable to <strong>process and analyze large amounts of natural language data.</strong></p>
+
+			<p>In that project, that kind of algorithms has been exploited through <strong> two main tasks: </strong> </p>
+
+            <ul class="pallino">
+			
+				<li class="paragrafo"> <p> <strong>Natural language understanding (NLU): </strong>  Finalized to the text analisys is able to convert input bunch of texts into spatial entities to be processed by the computer and to collect the semantic properties of each </p> </li>
+				
+				<li class="paragrafo"> <p><strong> Natural language generation (NLG): </strong>  Convert information from computer databases or semantic intents into readable human language.</p></li>
+				
+			</ul>
+			</div>
+			
+			<div class="contenitoreright">
+			 <img class="resize" src="./img/Newsworhy_NLP algorithms.png" alt="Newsworthy NLP algorithms">
+			</div>
+		</div>
+	
+		
+	</div>
+	<div class="box">
+		<div class="contenitoreh2">
+		<h2> Newsworthy backend process </h2>
+		</div>
+		<div class="contenitoreriga">
+			<div class="diviso3 marginright">
+				
+				<div class="cox">
+					<div class="contenitoreh3">
+					<h3> Articles scraping</h3>
+					</div>
+				</div>
+				
+				<div class="contenitoreimgworty">
+					<img class="resize" src="./img/newsworthy phase 1.png" alt="Newsworthy phase 1">
+				</div>
+				<p>
+				<strong>Download all the articles of the day and their metadata (url, publishing date, authors, title, text) </strong>found in the URL of the newspaper webpage inserted as input.
+				</p>
+			</div>
+			
+			<div class="diviso3 marginright">
+				<div class="cox">
+					<div class="contenitoreh3">
+					<h3>Articles similarities</h3>
+					</div>
+				</div>
+				<div class="contenitoreimgworty">
+					<img class="resize" src="./img/newsworthy phase 2.png" alt="Newsworthy phase 2">
+				</div>
+				<p>
+				Firstly, <strong class="p">understand the topic covered </strong> by each article from the sources; <strong> then group together the articles </strong> which talk about the same topic of the day.
+				</p>
+			</div>
+			
+			<div class="diviso3">
+				<div class="cox">
+					<div class="contenitoreh3">
+					<h3> Articles generation</h3>
+					</div>
+				</div>
+				
+				<div class="contenitoreimgworty">
+					<img class="resize" src="./img/newsworthy phase 3.png" alt="Newsworthy phase 3">
+				</div>
+				<p>
+				For each group of articles <strong> compute an abstractive summarisation </strong>to generate a <strong> new article text, </strong>syntesis of all the relevant information,  and generate for it a new title.
+				</p>
+			</div>
+		
+		
+		</div>
+	
+		
+	</div>
+	
+	
+</div>
+	
+<div id="footernextsec">
+	<div id="contenitorefooternextsec">
+		<div class="contenitoreleft">
+		<h3 class="white"> Explore more about Newsworthy:</h3>
+		</div>
+		
+		<div class="contenitoreright">
+		<a href="./iteration activities.html"> <div class="buttonsecfooter hvr-sweep-to-right2"> Validation </div></a>
+		</div>
+		
+	</div>
+</div>
+	
+<div id="footer">
+	<div id="contenitorefooter">
+		<div id="contenitorelogofooter" class="noselect"> 
+		<img class="resize" src="./img/LogoSitoWhite.png" alt="logo newsworthy"> 
+		</div>
+		
+		<h5>Ludovica Bonaldo | Giulia Gobetti | Silvia Guarnieri | Francesca Macolino | Luca Meneguzzo | Martina Mondonico</h5>
+	</div>
+</div>
+	
+	</body>
+</html>
